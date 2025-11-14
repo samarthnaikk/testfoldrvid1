@@ -7,3 +7,8 @@ for i in range(1,5):
 f=open("final.txt","w")
 f.write(s)
 f.close()
+
+print("executed all commands")
+f=open("final.txt","r")
+f.read()
+f.close()
