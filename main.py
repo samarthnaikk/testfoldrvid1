@@ -10,5 +10,5 @@ f.close()
 
 print("executed all commands")
 f=open("final.txt","r")
-f.read()
+print(f.read())
 f.close()
